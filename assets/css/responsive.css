@@ -1,0 +1,152 @@
+/* PC */
+@media (min-width:1024px) {
+
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px) {
+
+}
+
+/* Mobile */
+@media (max-width:739px) {
+    #main {
+            width: 375px;
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav { 
+        display: block;
+    }
+
+    #nav .sub-nav {
+        background-color: #333;
+        width: 100%;
+        position: initial;
+    }
+
+    #nav .sub-nav a {
+        line-height: 46px;
+        padding: 0 40px;
+        color: #fff;
+    }
+
+    #nav > li {
+        position: relative;
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    .ti-search {
+        display: none;
+    }
+
+   .menu-mobile {
+       position: absolute;
+       top: 0;
+       right: 0;
+       float: right;
+       color: #000;
+       display: block;
+       padding: 0 22px;
+        line-height: 46px;
+   }
+
+   .menu-mobile:hover {
+       background-color: #ccc;
+   }
+   .menu-mobile:hover  .fa-bars {
+       color: #000;
+   }
+
+    .fa-bars {
+        color: #fff;
+    }
+
+    #content .section-content {
+        width: 375px;
+    }
+
+    #content .about-text {
+        padding: 0 18px;
+    }
+
+    #content .member-item {
+        width: auto;
+        text-align: center;
+        float: initial;
+    }
+
+    #content .member-img {
+        width: auto;
+    }
+
+    #section-tour {
+        min-height: 1866px;
+        background-color: #000;
+    }
+    
+
+    #section-tour .ticket-list {
+    margin-left: 18px;
+    width: 339px;
+    }
+
+    #section-tour .place-item {
+    float: left;
+    width: 100%;
+    padding: 0 8px;
+    margin: 0 18px;
+    margin-bottom: 16px;
+    }
+
+    #section-contact .contact-input {
+        margin-top: 16px;
+        float: left;
+    }
+
+    #section-contact .input-Name {
+        width: 86%;
+        margin: 0 16px;
+    }
+
+    #section-contact .input-Email {
+        width: 86%;
+        margin: 0 16px;
+        margin-bottom: 10px;
+    }
+
+    #section-contact .input-Message {
+        width: 86%;
+        margin: 0 16px;
+    }
+
+    #section-contact .btn-send {
+        margin-left: 285px;
+    }
+
+    #content-map .content-img-map {
+        width: 375px;
+        min-height: 211px;
+    }
+
+    #section-contact .info1 {
+        margin-left: 16px;
+    }
+
+    #section-contact .info2 {
+        margin-left: 16px;
+    }
+
+    #section-contact .info3 {
+        margin-left: 16px;
+    }
+}
